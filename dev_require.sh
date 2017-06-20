@@ -1,3 +1,3 @@
 #!/bin/bash
-sudo apt-get update
-sudo apt-get install gnome-common libglib2.0-dev gtk+-3.0-dev libunique-3.0-dev libwnck-3-dev libgee-dev libgnome-menu-dev valac 
+sudo pacman -Syy
+sudo pacman -S base-devel gnome-common gnome-session glib2 gtk3 libwnck3 libgee vala webkitgtk gnome-menus libnotify
